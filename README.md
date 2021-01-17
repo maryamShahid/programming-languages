@@ -1,8 +1,8 @@
 # programming-languages-cs315
 CS315 - Programming Langauges; homework assignments, Bilkent University, Fall 2020.
 
-Assignments 📒
+ #### Assignments 📒
 
-Homework 1: Arrays in Dart, Javascript, PHP, Python, and Rust
-Homework 2: Counter-Controlled Loops in Dart, Javascript, PHP, Python, and Rust
-Homework 3: Recursive Functions in Scheme
+Homework 1: Associative Arrays in Dart, JavaScript, Lua, PHP, Python, Ruby and Rust <br/>
+Homework 2: Logically Controlled Loops in Dart, JavaScript, Lua, PHP, Python, Ruby and Rust <br/>
+Homework 3: Subprograms in Julia <br/>
