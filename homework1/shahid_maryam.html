@@ -1,0 +1,47 @@
+<html>
+<script>
+
+// 1. initialise
+let myArray = new Map([["cat", "Jem"], ["kitten", "Beans"], ["name", "Maryam"]])
+
+// 2. get value for a given key - cat
+document.write(myArray.get('cat')) 
+
+// 3. add a new element
+myArray.set('color', "Blue")
+
+// 4. remove an element
+myArray.delete('name')
+
+// 5. modify value of an existing element
+myArray.set('color', 'Yellow') 
+
+// 6. search for the existence of a key
+myArray.has('cat') 
+
+document.write(myArray.has('color')) // returns true
+document.write(myArray.has('dog'))   // return false 
+
+// 7. search for the existence of a value
+function checkvalue(values){
+    for (let [key, value] of myArray){
+        if( value == values){
+            return true
+        }
+    } 
+    return false;
+}
+document.write(checkvalue("Jem")) //returns true
+document.write(checkvalue("Beans")) //returns false  
+
+// 8. print key-value pair through foo
+function foo(key, value){
+    document.write(key + ': ' + value + '<br>')
+}
+
+myArray.forEach(function(value, key) {
+  foo(key, value)
+})
+
+</script>
+</html>
