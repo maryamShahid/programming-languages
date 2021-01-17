@@ -1,0 +1,37 @@
+<script>
+
+var first = 1;
+while (first < 10) {    // pretest using while
+  document.write("first:  " + first + '<br>');
+  first = first * 2;
+}
+  
+var i = 1;
+for (; i < 10; ) {      // pretest using for
+  document.write("i:  " + i + '<br>');
+  i = i * 2;
+}
+  
+var second = 10;
+do {
+  document.write("second: " + second + '<br>');
+  second = second - 4;
+} while (second > 1);    // posttest
+  
+var count = 10;
+while (count > 0) {
+  if (count == 5)
+    break;    // break to exit the loop
+  document.write("count: " + count + '<br>');
+  count--;
+}
+
+  var check = 5;
+  while (check > 0) {
+    check--;
+    if (check == 2)
+      continue;   // continue to skip over the rest of the loop
+    document.write("check: " + check + '<br>');
+  }
+
+</script>
