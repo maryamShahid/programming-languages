@@ -1,4 +1,4 @@
-# Programming Languages - cs315
+# Programming Languages
 CS315 - Programming Langauges; homework assignments, Bilkent University, Fall 2020.
 
 ## Assignments
